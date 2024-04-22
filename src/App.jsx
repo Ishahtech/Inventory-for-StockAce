@@ -1,10 +1,19 @@
-import React from 'react'
+
+import Charts from "./Components/Charts"
+import Home from "./Components/Home"
+import Sidebar from "./Components/Sidebar"
+import "./index.css"
 
 function App() {
   return (
-    <div>
-      <h1>StockAce</h1>
-    </div>
+    <>
+     <div className="grid-container">
+     < Sidebar />
+     <Home />
+     <Charts />
+     </div>
+     
+    </>
   )
 }
 
