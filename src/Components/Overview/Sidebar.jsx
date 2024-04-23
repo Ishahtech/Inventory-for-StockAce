@@ -1,4 +1,4 @@
-
+import { Link } from "react-router-dom"
 
 function Sidebar() {
   return (
@@ -29,7 +29,12 @@ function Sidebar() {
                     </div>
                     <div style={{width: 195, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'inline-flex'}}>
                         <div style={{width: 200, height: 45, padding: 8, justifyContent: 'flex-start', alignItems: 'center', gap: 8, display: 'inline-flex'}}>
-                            <div style={{color: '#0315BD', fontSize: 20, fontFamily: 'Karla', fontWeight: '500', wordWrap: 'break-word'}}>Overview</div>
+                            <div style={{color: '#0315BD', fontSize: 20, fontFamily: 'Karla', fontWeight: '500', wordWrap: 'break-word'}}>
+                            <Link to="/overview">
+                            Overview
+                            </Link> 
+                                
+                                </div>
                         </div>
                     </div>
                 </div>
@@ -137,7 +142,11 @@ function Sidebar() {
                     </div>
                     <div style={{width: 200, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'inline-flex'}}>
                         <div style={{width: 200, height: 45, padding: 8, justifyContent: 'flex-start', alignItems: 'center', gap: 8, display: 'inline-flex'}}>
-                            <div style={{color: '#505153', fontSize: 20, fontFamily: 'Karla', fontWeight: '500', wordWrap: 'break-word'}}>Log out</div>
+                            <div style={{color: '#505153', fontSize: 20, fontFamily: 'Karla', fontWeight: '500', wordWrap: 'break-word'}}>
+                            <Link to="/signup">
+                                Log out
+                            </Link> 
+                            </div>
                         </div>
                     </div>
                 </div>

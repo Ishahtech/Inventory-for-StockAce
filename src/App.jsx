@@ -1,19 +1,19 @@
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
 
-
-import Home from "./Components/Overview/Home"
-import Records from "./Components/Overview/Records"
-import Sidebar from "./Components/Overview/Sidebar"
+import OverviewPage from "./Components/OverviewPage"
+import Sigup from "./Components/Sigup"
 import "./index.css"
 
 function App() {
   return (
     <>
-     <div className="grid-container">
-     <Sidebar />
-     <Home />
-     <Records />
-     </div> 
-     
+    <Router>
+      <Routes>
+          <Route path="/overview" element={<OverviewPage />} />
+          <Route path="/signup" element={<Sigup />} />
+      </Routes>
+    </Router>
+    
      
     </>
   )
