@@ -202,7 +202,7 @@ function Home() {
 
 <section className="charts-ctr">
 
-<div className="bar-rep" style={{width: '100%', height: '100%', position: 'relative', background: 'red', boxShadow: '0px 1px 4px rgba(0, 0, 0, 0.25)', borderRadius: 8, overflow: ''}}>
+<div className="bar-rep" style={{ position: 'relative', background: 'FFF', boxShadow: '0px 1px 4px rgba(0, 0, 0, 0.25)', borderRadius: 8, overflow: ''}}>
     <div style={{left: 23, top: 16, position: 'absolute', justifyContent: 'flex-start', alignItems: 'center', gap: 117, display: 'inline-flex'}}>
         <div style={{color: 'black', fontSize: 20, fontFamily: 'Karla', fontWeight: '500', wordWrap: 'break-word'}}>Sales Overview</div>
         <div style={{justifyContent: 'flex-start', alignItems: 'center', gap: 40, display: 'flex'}}>
@@ -281,9 +281,7 @@ function Home() {
         <div style={{paddingRight: 8, background: '#E1E4FF', borderRadius: 8, justifyContent: 'flex-start', alignItems: 'center', gap: 8, display: 'inline-flex'}}>
             <div style={{width: 72, height: 68.40, position: 'relative'}}>
                 <div style={{width: 72, height: 68.40, left: 0, top: 0, position: 'absolute', background: 'linear-gradient(0deg, #0315BD 0%, #0315BD 100%)', borderTopLeftRadius: 7.20, borderTopRightRadius: 7.20}} />
-                <div style={{width: 80.46, height: 99, left: -8.10, top: -15.30, position: 'absolute'}}>
-                    <img style={{width: 80.46, height: 99, left: 0, top: 0, position: 'absolute'}} src="https://via.placeholder.com/80x99" />
-                </div>
+                <img style={{width: 72, height: 68.40, borderRadius: 8, left: 0, top: 0,  position: 'absolute'}} src="./src/Asset/bag.png" />
             </div>
             <div style={{flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 6, display: 'inline-flex'}}>
                 <div style={{justifyContent: 'flex-start', alignItems: 'flex-end', gap: 32, display: 'inline-flex'}}>
@@ -306,11 +304,9 @@ function Home() {
             </div>
         </div>
         <div style={{paddingRight: 8, background: '#E1E4FF', borderRadius: 8, justifyContent: 'flex-start', alignItems: 'center', gap: 8, display: 'inline-flex'}}>
-            <div style={{width: 72, height: 68.40, position: 'relative'}}>
+        <div style={{width: 72, height: 68.40, position: 'relative'}}>
                 <div style={{width: 72, height: 68.40, left: 0, top: 0, position: 'absolute', background: 'linear-gradient(0deg, #0315BD 0%, #0315BD 100%)', borderTopLeftRadius: 7.20, borderTopRightRadius: 7.20}} />
-                <div style={{width: 80.46, height: 99, left: -8.10, top: -15.30, position: 'absolute'}}>
-                    <img style={{width: 80.46, height: 99, left: 0, top: 0, position: 'absolute'}} src="https://via.placeholder.com/80x99" />
-                </div>
+                <img style={{width: 72, height: 68.40, borderRadius: 8, left: 0, top: 0,  position: 'absolute'}} src="./src/Asset/bag.png" />
             </div>
             <div style={{flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 6, display: 'inline-flex'}}>
                 <div style={{justifyContent: 'flex-start', alignItems: 'flex-end', gap: 32, display: 'inline-flex'}}>
@@ -333,11 +329,9 @@ function Home() {
             </div>
         </div>
         <div style={{paddingRight: 8, background: '#E1E4FF', borderRadius: 8, justifyContent: 'flex-start', alignItems: 'center', gap: 8, display: 'inline-flex'}}>
-            <div style={{width: 72, height: 68.40, position: 'relative'}}>
+        <div style={{width: 72, height: 68.40, position: 'relative'}}>
                 <div style={{width: 72, height: 68.40, left: 0, top: 0, position: 'absolute', background: 'linear-gradient(0deg, #0315BD 0%, #0315BD 100%)', borderTopLeftRadius: 7.20, borderTopRightRadius: 7.20}} />
-                <div style={{width: 80.46, height: 99, left: -8.10, top: -15.30, position: 'absolute'}}>
-                    <img style={{width: 80.46, height: 99, left: 0, top: 0, position: 'absolute'}} src="https://via.placeholder.com/80x99" />
-                </div>
+                <img style={{width: 72, height: 68.40, borderRadius: 8, left: 0, top: 0,  position: 'absolute'}} src="./src/Asset/bag.png" />
             </div>
             <div style={{flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 6, display: 'inline-flex'}}>
                 <div style={{justifyContent: 'flex-start', alignItems: 'flex-end', gap: 32, display: 'inline-flex'}}>
@@ -360,11 +354,9 @@ function Home() {
             </div>
         </div>
         <div style={{paddingRight: 8, background: '#E1E4FF', borderRadius: 8, justifyContent: 'flex-start', alignItems: 'center', gap: 8, display: 'inline-flex'}}>
-            <div style={{width: 72, height: 68.40, position: 'relative'}}>
+        <div style={{width: 72, height: 68.40, position: 'relative'}}>
                 <div style={{width: 72, height: 68.40, left: 0, top: 0, position: 'absolute', background: 'linear-gradient(0deg, #0315BD 0%, #0315BD 100%)', borderTopLeftRadius: 7.20, borderTopRightRadius: 7.20}} />
-                <div style={{width: 80.46, height: 99, left: -8.10, top: -15.30, position: 'absolute'}}>
-                    <img style={{width: 80.46, height: 99, left: 0, top: 0, position: 'absolute'}} src="https://via.placeholder.com/80x99" />
-                </div>
+                <img style={{width: 72, height: 68.40, borderRadius: 8, left: 0, top: 0,  position: 'absolute'}} src="./src/Asset/bag.png" />
             </div>
             <div style={{flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 6, display: 'inline-flex'}}>
                 <div style={{justifyContent: 'flex-start', alignItems: 'flex-end', gap: 32, display: 'inline-flex'}}>
