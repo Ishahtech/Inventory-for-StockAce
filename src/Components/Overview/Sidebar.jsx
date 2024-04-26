@@ -30,7 +30,7 @@ function Sidebar() {
                     <div style={{width: 195, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'inline-flex'}}>
                         <div style={{width: 200, height: 45, padding: 8, justifyContent: 'flex-start', alignItems: 'center', gap: 8, display: 'inline-flex'}}>
                             <div style={{color: '#0315BD', fontSize: 20, fontFamily: 'Karla', fontWeight: '500', wordWrap: 'break-word'}}>
-                            <Link to="/overview">
+                            <Link to="/">
                             Overview
                             </Link> 
                                 
