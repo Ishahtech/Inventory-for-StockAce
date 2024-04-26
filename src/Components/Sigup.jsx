@@ -1,4 +1,4 @@
-
+import { Link } from "react-router-dom"
 function Sigup() {
   return (
     <>
@@ -66,7 +66,7 @@ function Sigup() {
                             </div>
                             <div style={{width: 40, paddingLeft: 14.22, paddingRight: 14.22, paddingTop: 7.11, paddingBottom: 7.11, justifyContent: 'center', alignItems: 'center', display: 'flex'}}>
                                 <div style={{width: 11.56, height: 11.56, position: 'relative'}}>
-                                <img style={{ position: 'absolute'}} src="src/Asset/icons/stockace.svg" />
+                                <img style={{ position: 'absolute'}} src="src/Asset/icons/delete.svg" />
                                 </div>
                             </div>
                         </div>
@@ -81,8 +81,7 @@ function Sigup() {
                             </div>
                             <div style={{width: 39, paddingLeft: 13.87, paddingRight: 13.87, paddingTop: 6.93, paddingBottom: 6.93, justifyContent: 'center', alignItems: 'center', display: 'flex'}}>
                                 <div style={{width: 11.27, height: 11.27, position: 'relative'}}>
-                                    <div style={{width: 11.27, height: 11.27, left: 0, top: 0, position: 'absolute', border: '1px #505153 solid'}}></div>
-                                    <div style={{width: 11.27, height: 11.27, left: 0, top: 0, position: 'absolute', border: '1px #505153 solid'}}></div>
+                                <img style={{ position: 'absolute'}} src="src/Asset/icons/delete.svg" />
                                 </div>
                             </div>
                         </div>
@@ -98,8 +97,7 @@ function Sigup() {
                             <div style={{width: 45, paddingLeft: 16, paddingRight: 16, paddingTop: 8, paddingBottom: 8, justifyContent: 'center', alignItems: 'center', display: 'flex'}}>
                                 <div style={{width: 13, height: 13, paddingLeft: 0.48, paddingRight: 0.48, paddingTop: 2.32, paddingBottom: 2.32, justifyContent: 'center', alignItems: 'center', display: 'flex'}}>
                                     <div style={{width: 12.05, height: 8.36, position: 'relative'}}>
-                                        <div style={{width: 12.05, height: 8.36, left: 0, top: 0, position: 'absolute', border: '1px #505153 solid'}}></div>
-                                        <div style={{width: 3.71, height: 3.71, left: 4.17, top: 2.32, position: 'absolute', border: '1px #505153 solid'}}></div>
+                                    <img style={{ position: 'absolute'}} src="src/Asset/icons/delete.svg" /> 
                                     </div>
                                 </div>
                             </div>
@@ -116,7 +114,15 @@ function Sigup() {
         <div style={{padding: 10, justifyContent: 'center', alignItems: 'center', gap: 8, display: 'inline-flex'}}>
             <div style={{color: 'black', fontSize: 20, fontFamily: 'Karla', fontWeight: '500', wordWrap: 'break-word'}}>Already have an account?</div>
             <div style={{justifyContent: 'center', alignItems: 'center', gap: 10, display: 'flex'}}>
-                {/* <div><span style="color: 'black', fontSize: 20, fontFamily: 'Karla', fontWeight: '500', wordWrap: 'break-word'"> </span><span style="color: '#0315BD', fontSize: 20, fontFamily: 'Karla', fontWeight: '500', wordWrap: 'break-word'">Log in</span></div> */}
+            <div>
+            <span style={{ color: 'black', fontSize: 20, fontFamily: 'Karla', fontWeight: 500, wordWrap: 'break-word' }}> </span>
+            <span style={{ color: '#0315BD', fontSize: 20, fontFamily: 'Karla', fontWeight: 500, wordWrap: 'break-word' }}>
+            <Link to="/signin">
+            Log in
+            </Link> 
+                </span>
+</div>
+
             </div>
         </div>
     </div>
