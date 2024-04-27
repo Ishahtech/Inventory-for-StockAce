@@ -3,11 +3,11 @@
 function Signin() {
   return (
     <>
-      <div className="signin-ctr">
+      <div className="signup-ctr">
         <div>
         {/* <div className="overlay"></div> */}
-        <div className="avatar-right">
-        <div style={{flexDirection: 'column', justifyContent: 'flex-end', alignItems: 'center', display: 'inline-flex'}}>
+       
+        <div className="avatar-left" style={{flexDirection: 'column', justifyContent: 'flex-end', alignItems: 'center', display: 'inline-flex'}}>
     <div style={{alignSelf: 'stretch', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
         <div style={{width: 614, padding: 8, justifyContent: 'flex-start', alignItems: 'center', display: 'inline-flex'}}>
             <div style={{textAlign: 'center', color: 'white', fontSize: 40, fontFamily: 'Montserrat', fontWeight: '600', wordWrap: 'break-word'}}>Track your Sales Seamlessly</div>
@@ -19,7 +19,7 @@ function Signin() {
         </div>
     </div>
 </div>
-        </div>
+        
         </div>
 
         <div className="signup-right">
