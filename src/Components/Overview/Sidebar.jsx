@@ -1,12 +1,12 @@
 import { Link } from "react-router-dom"
-
+import stockace from '../../Asset/icons/stockace.svg'
 function Sidebar() {
   return (
     <>
         <div className="sidebar-ctr" >
     <div style={{width: 186, justifyContent: 'flex-end', alignItems: 'flex-end', gap: 6, display: 'inline-flex'}}>
         <div style={{width: 47.40, height: 42.99, position: 'relative'}}>
-            <img style={{}} src="src/Asset/icons/stockace.svg" />
+            <img style={{}} src={stockace} />
         </div>
         <div style={{justifyContent: 'flex-end', alignItems: 'flex-start', gap: 5.85, display: 'flex'}}>
             <div style={{color: '#2A2A2C', fontSize: 33.11, fontFamily: 'Karla', fontWeight: '500', wordWrap: 'break-word'}}>StockAce</div>
