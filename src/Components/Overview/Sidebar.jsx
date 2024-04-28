@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom"
 import stockace from '../../Asset/icons/stockace.svg'
+
 function Sidebar() {
   return (
     <>
@@ -19,11 +20,7 @@ function Sidebar() {
                     <div style={{width: 40, padding: 8, justifyContent: 'center', alignItems: 'center', gap: 10, display: 'flex'}}>
                         <div style={{width: 24, height: 24, position: 'relative'}}>
                             <div style={{width: 24, height: 24, left: 0, top: 0, position: 'absolute'}}>
-                                <div style={{width: 8, height: 8, left: 2, top: 2, position: 'absolute', border: '1.50px #0315BD solid'}}></div>
-                                <div style={{width: 8, height: 8, left: 14, top: 2, position: 'absolute', border: '1.50px #0315BD solid'}}></div>
-                                <div style={{width: 8, height: 8, left: 14, top: 14, position: 'absolute', border: '1.50px #0315BD solid'}}></div>
-                                <div style={{width: 8, height: 8, left: 2, top: 14, position: 'absolute', border: '1.50px #0315BD solid'}}></div>
-                                <div style={{width: 24, height: 24, left: 0, top: 0, position: 'absolute', opacity: 0}}></div>
+                                
                             </div>
                         </div>
                     </div>
