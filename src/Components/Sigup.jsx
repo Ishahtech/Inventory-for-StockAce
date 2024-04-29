@@ -1,4 +1,6 @@
 import { Link } from "react-router-dom"
+import stockace from '../Asset/icons/stockace'
+import google from '../Asset/icons/google'
 function Sigup() {
   return (
     <>
@@ -26,7 +28,7 @@ function Sigup() {
         <div style={{flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'center', gap: 24, display: 'flex'}}>
             <div style={{width: 186, justifyContent: 'flex-end', alignItems: 'flex-end', gap: 6, display: 'inline-flex'}}>
                 <div style={{width: 47.40, height: 42.99, position: 'relative'}}>
-                    <img style={{ position: 'absolute'}} src="src/Asset/icons/stockace.svg" />
+                    <img style={{ position: 'absolute'}} src={stockace} />
                 </div>
                 <div style={{justifyContent: 'flex-end', alignItems: 'flex-start', gap: 5.85, display: 'flex'}}>
                     <div style={{color: '#2A2A2C', fontSize: 33.11, fontFamily: 'Karla', fontWeight: '500', wordWrap: 'break-word'}}>StockAce</div>
@@ -41,7 +43,7 @@ function Sigup() {
                 <div style={{width: 553, height: 45, paddingTop: 8, paddingBottom: 8, borderRadius: 8, border: '0.75px #909BFE solid', justifyContent: 'center', alignItems: 'center', gap: 16, display: 'inline-flex'}}>
                     <div style={{color: 'black', fontSize: 20, fontFamily: 'Karla', fontWeight: '500', wordWrap: 'break-word'}}>Create account with Google</div>
                     <div style={{width: 32, height: 32, position: 'relative'}}>
-                    <img style={{ position: 'absolute'}} src="src/Asset/icons/google.svg" />
+                    <img style={{ position: 'absolute'}} src={google} />
                     </div>
                 </div>
                 <div style={{justifyContent: 'flex-start', alignItems: 'center', gap: 11, display: 'inline-flex'}}>
