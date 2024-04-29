@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom"
 import stockace from '../../Asset/icons/stockace.svg'
-
+import overview from '../../Asset/icons/category.svg'
 function Sidebar() {
   return (
     <>
@@ -20,7 +20,7 @@ function Sidebar() {
                     <div style={{width: 40, padding: 8, justifyContent: 'center', alignItems: 'center', gap: 10, display: 'flex'}}>
                         <div style={{width: 24, height: 24, position: 'relative'}}>
                             <div style={{width: 24, height: 24, left: 0, top: 0, position: 'absolute'}}>
-                                
+                            <img style={{}} src={overview} />  
                             </div>
                         </div>
                     </div>
