@@ -76,10 +76,10 @@ function Sigup() {
                 </div>
                 <div style={{flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'flex'}}>
                     <div style={{flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 4, display: 'flex'}}>
-                        <input style={{color: '#505153', fontSize: 14, fontFamily: 'Karla', fontWeight: '500', wordWrap: 'break-word'}} />
-                        <div style={{width: 553, height: 45, paddingTop: 4, paddingBottom: 4, borderRadius: 4, border: '0.50px #828282 solid', justifyContent: 'center', alignItems: 'center', gap: 154, display: 'inline-flex'}}>
+                        <div style={{color: '#505153', fontSize: 14, fontFamily: 'Karla', fontWeight: '500', wordWrap: 'break-word'}}>Name</div>
+                        <div style={{width: 553, height: 45, paddingTop: 4, paddingBottom: 4, borderRadius: 4, border: '0.50px #828282 solid', justifyContent: 'center', alignItems: 'center',  display: 'inline-flex'}}>
                         
-                                <input  style={{height: 45, paddingLeft: 16, paddingRight: 16, paddingTop: 8, paddingBottom: 8, justifyContent: 'flex-start', alignItems: 'center', display: 'flex'}} type="text" />
+                                <input  type="text" />
                             
                             <div style={{width: 39, paddingLeft: 13.87, paddingRight: 13.87, paddingTop: 6.93, paddingBottom: 6.93, justifyContent: 'center', alignItems: 'center', display: 'flex'}}>
                                 <div style={{width: 11.27, height: 11.27, position: 'relative'}}>
