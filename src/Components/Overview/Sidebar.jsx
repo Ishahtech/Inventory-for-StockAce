@@ -1,6 +1,8 @@
 import { Link } from "react-router-dom"
 import stockace from '../../Asset/icons/stockace.svg'
 import overview from '../../Asset/icons/category.svg'
+import newbag from '../../Asset/icons/newbag.svg'
+import product from '../../Asset/icons/product.svg'
 function Sidebar() {
   return (
     <>
@@ -46,16 +48,9 @@ function Sidebar() {
                     <div style={{width: 40, padding: 8, justifyContent: 'center', alignItems: 'center', gap: 10, display: 'flex'}}>
                         <div style={{width: 24, height: 24, position: 'relative'}}>
                             <div style={{width: 22.29, height: 22.29, left: 0.86, top: 0.86, position: 'absolute'}}>
-                                <div style={{width: 22.29, height: 17.14, left: 0, top: 5.14, position: 'absolute', border: '1.50px #2A2A2C solid'}}></div>
-                                <div style={{width: 10.29, height: 5.14, left: 6, top: 0, position: 'absolute', border: '1.50px #2A2A2C solid'}}></div>
+                            <img style={{}} src={newbag} />
                             </div>
-                            <div style={{width: 12, height: 12, left: 12, top: 0, position: 'absolute'}}>
-                                <div style={{width: 11.14, height: 11.14, left: 0.43, top: 0.43, position: 'absolute'}}>
-                                    <div style={{width: 11.14, height: 11.14, left: 0, top: 0, position: 'absolute', background: '#D9D9D9', border: '0.54px black solid'}}></div>
-                                    <div style={{width: 0, height: 5.14, left: 5.57, top: 3, position: 'absolute', border: '0.54px black solid'}}></div>
-                                    <div style={{width: 5.14, height: 0, left: 3, top: 5.57, position: 'absolute', border: '0.54px black solid'}}></div>
-                                </div>
-                            </div>
+                           
                         </div>
                     </div>
                     <div style={{width: 200, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'inline-flex'}}>
@@ -71,8 +66,7 @@ function Sidebar() {
                     <div style={{width: 40, padding: 8, justifyContent: 'center', alignItems: 'center', gap: 10, display: 'flex'}}>
                         <div style={{width: 24, height: 24, position: 'relative'}}>
                             <div style={{width: 22.29, height: 22.29, left: 0.86, top: 0.86, position: 'absolute'}}>
-                                <div style={{width: 22.29, height: 17.14, left: 0, top: 5.14, position: 'absolute', border: '1.50px #2A2A2C solid'}}></div>
-                                <div style={{width: 10.29, height: 5.14, left: 6, top: 0, position: 'absolute', border: '1.50px #2A2A2C solid'}}></div>
+                            <img style={{}} src={product} />
                             </div>
                         </div>
                     </div>
