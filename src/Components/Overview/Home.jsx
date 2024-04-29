@@ -1,4 +1,4 @@
-
+import admin from '../../Asset/admin.png'
 
 function Home() {
   return (
@@ -25,7 +25,7 @@ function Home() {
         <div className="user-profile">
       {/* Profile image container */}
       <div className="profile-image-container">
-        <img src="src/Asset/admin.png" alt="admin image" className="profile-image" />
+        <img style={{}} src={admin}  alt="admin image" className="profile-image" />
       </div>
 
       {/* User details container */}
