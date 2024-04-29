@@ -1,4 +1,5 @@
 import admin from '../../Asset/admin.png'
+import bag from '../../Asset/bag.png'
 
 function Home() {
   return (
@@ -331,7 +332,7 @@ function Home() {
         <div style={{paddingRight: 8, background: '#E1E4FF', borderRadius: 8, justifyContent: 'flex-start', alignItems: 'center', gap: 8, display: 'inline-flex'}}>
         <div style={{width: 72, height: 68.40, position: 'relative'}}>
                 <div style={{width: 72, height: 68.40, left: 0, top: 0, position: 'absolute', background: 'linear-gradient(0deg, #0315BD 0%, #0315BD 100%)', borderTopLeftRadius: 7.20, borderTopRightRadius: 7.20}} />
-                <img style={{width: 72, height: 68.40, borderRadius: 8, left: 0, top: 0,  position: 'absolute'}} src="./src/Asset/bag.png" />
+                <img style={{width: 72, height: 68.40, borderRadius: 8, left: 0, top: 0,  position: 'absolute'}} src={bag} /> 
             </div>
             <div style={{flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 6, display: 'inline-flex'}}>
                 <div style={{justifyContent: 'flex-start', alignItems: 'flex-end', gap: 32, display: 'inline-flex'}}>
@@ -356,7 +357,7 @@ function Home() {
         <div style={{paddingRight: 8, background: '#E1E4FF', borderRadius: 8, justifyContent: 'flex-start', alignItems: 'center', gap: 8, display: 'inline-flex'}}>
         <div style={{width: 72, height: 68.40, position: 'relative'}}>
                 <div style={{width: 72, height: 68.40, left: 0, top: 0, position: 'absolute', background: 'linear-gradient(0deg, #0315BD 0%, #0315BD 100%)', borderTopLeftRadius: 7.20, borderTopRightRadius: 7.20}} />
-                <img style={{width: 72, height: 68.40, borderRadius: 8, left: 0, top: 0,  position: 'absolute'}} src="./src/Asset/bag.png" />
+                <img style={{width: 72, height: 68.40, borderRadius: 8, left: 0, top: 0,  position: 'absolute'}} src={bag} />
             </div>
             <div style={{flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 6, display: 'inline-flex'}}>
                 <div style={{justifyContent: 'flex-start', alignItems: 'flex-end', gap: 32, display: 'inline-flex'}}>
