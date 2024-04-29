@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom"
-import stockace from '../../src/Asset/icons/stockace'
-import google from '../../src/Asset/icons/google'
+import stockace from '.././Asset/icons/stockace.svg'
+import google from '.././Asset/icons/google.svg'
 function Sigup() {
   return (
     <>
