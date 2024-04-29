@@ -1,5 +1,6 @@
 
-
+import { Link } from "react-router-dom"
+import stockace from '.././Asset/icons/stockace.svg'
 function Signin() {
   return (
     <>
@@ -7,7 +8,7 @@ function Signin() {
         <div>
         {/* <div className="overlay"></div> */}
        
-        <div className="avatar-left" style={{flexDirection: 'column', justifyContent: 'flex-end', alignItems: 'center', display: 'inline-flex'}}>
+        <div className="avatar-right" style={{flexDirection: 'column', justifyContent: 'flex-end', alignItems: 'center', display: 'inline-flex'}}>
     <div style={{alignSelf: 'stretch', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
         <div style={{width: 614, padding: 8, justifyContent: 'flex-start', alignItems: 'center', display: 'inline-flex'}}>
             <div style={{textAlign: 'center', color: 'white', fontSize: 40, fontFamily: 'Montserrat', fontWeight: '600', wordWrap: 'break-word'}}>Track your Sales Seamlessly</div>
@@ -23,18 +24,19 @@ function Signin() {
         </div>
 
         <div className="signup-right">
-        <div style={{width: '100%', height: '100%', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 40, display: 'inline-flex'}}>
+        <div style={{ flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 40, display: 'inline-flex'}}>
     <div style={{height: 172, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'center', gap: 24, display: 'flex'}}>
         <div style={{padding: 10, background: 'white', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
             <div style={{justifyContent: 'center', alignItems: 'center', gap: 10, display: 'flex'}}>
                 <div style={{color: 'black', fontSize: 40, fontFamily: 'Karla', fontWeight: '700', wordWrap: 'break-word'}}>Welcome Back</div>
             </div>
             <div style={{width: 48, height: 48, position: 'relative'}}>
-                <div style={{width: 44, height: 44, left: 2, top: 2, position: 'absolute', background: 'black'}}></div>
+                <img src={stockace} alt="stockace" />
             </div>
         </div>
         <div style={{width: 565, padding: 10, justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
-            <div style={{color: '#505153', fontSize: 24, fontFamily: 'Karla', fontWeight: '400', lineHeight: 30.22, wordWrap: 'break-word'}}>Today is a new day. It’s your day. You shape it.<br/>      Log in to start managing your sales</div>
+            <div style={{color: '#505153', fontSize: 24, fontFamily: 'Karla', fontWeight: '400'}}>Today is a new day. It’s your day. You shape it.
+            Log in to start managing your sales</div>
         </div>
     </div>
     <div style={{flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 56, display: 'flex'}}>
@@ -77,15 +79,18 @@ function Signin() {
                 <div style={{color: '#0315BD', fontSize: 16, fontFamily: 'Karla', fontWeight: '500', wordWrap: 'break-word'}}>Forgot Password?</div>
             </div>
         </div>
-        <div style={{flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'center', display: 'flex'}}>
-            <div style={{width: 553, height: 55, paddingLeft: 32, paddingRight: 32, paddingTop: 8, paddingBottom: 8, background: '#0315BD', borderRadius: 8, justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
-                <div style={{color: 'white', fontSize: 20, fontFamily: 'Karla', fontWeight: '500', wordWrap: 'break-word'}}>Log In</div>
-            </div>
-            <div style={{paddingLeft: 10, paddingRight: 10, paddingTop: 8, paddingBottom: 8, justifyContent: 'center', alignItems: 'center', gap: 8, display: 'inline-flex'}}>
-                <div style={{color: 'black', fontSize: 20, fontFamily: 'Karla', fontWeight: '500', wordWrap: 'break-word'}}>Don’t have an account?</div>
-                <div style={{justifyContent: 'center', alignItems: 'center', gap: 10, display: 'flex'}}>
-                    {/* <div><span style="color: 'black', fontSize: 20, fontFamily: 'Karla', fontWeight: '500', wordWrap: 'break-word'"> </span><span style="color: '#0315BD', fontSize: 20, fontFamily: 'Karla', fontWeight: '500', wordWrap: 'break-word'">Sign Up</span></div> */}
-                </div>
+        <div style={{padding: 10, justifyContent: 'center', alignItems: 'center', gap: 8, display: 'inline-flex'}}>
+            <div style={{color: 'black', fontSize: 20, fontFamily: 'Karla', fontWeight: '500', wordWrap: 'break-word'}}>Already have an account?</div>
+            <div style={{justifyContent: 'center', alignItems: 'center', gap: 10, display: 'flex'}}>
+            <div>
+            <span style={{ color: 'black', fontSize: 20, fontFamily: 'Karla', fontWeight: 500, wordWrap: 'break-word' }}> </span>
+            <span style={{ color: '#0315BD', fontSize: 20, fontFamily: 'Karla', fontWeight: 500, wordWrap: 'break-word' }}>
+            <Link to="/signup">
+            Sign Up
+            </Link> 
+                </span>
+</div>
+
             </div>
         </div>
     </div>
