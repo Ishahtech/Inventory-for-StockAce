@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom"
 import stockace from '.././Asset/icons/stockace.svg'
 import google from '.././Asset/icons/google.svg'
+import del from '.././Asset/icons/delete.svg'
 function Sigup() {
   return (
     <>
@@ -68,7 +69,7 @@ function Sigup() {
                             </div>
                             <div style={{width: 40, paddingLeft: 14.22, paddingRight: 14.22, paddingTop: 7.11, paddingBottom: 7.11, justifyContent: 'center', alignItems: 'center', display: 'flex'}}>
                                 <div style={{width: 11.56, height: 11.56, position: 'relative'}}>
-                                <img style={{ position: 'absolute'}} src="src/Asset/icons/delete.svg" />
+                                <img style={{ position: 'absolute'}} src={del} />
                                 </div>
                             </div>
                         </div>
@@ -83,7 +84,7 @@ function Sigup() {
                             
                             <div style={{width: 39, paddingLeft: 13.87, paddingRight: 13.87, paddingTop: 6.93, paddingBottom: 6.93, justifyContent: 'center', alignItems: 'center', display: 'flex'}}>
                                 <div style={{width: 11.27, height: 11.27, position: 'relative'}}>
-                                <img style={{ position: 'absolute'}} src="src/Asset/icons/delete.svg" />
+                                <img style={{ position: 'absolute'}} src={del} />
                                 </div>
                             </div>
                         </div>
@@ -99,7 +100,7 @@ function Sigup() {
                             <div style={{width: 45, paddingLeft: 16, paddingRight: 16, paddingTop: 8, paddingBottom: 8, justifyContent: 'center', alignItems: 'center', display: 'flex'}}>
                                 <div style={{width: 13, height: 13, paddingLeft: 0.48, paddingRight: 0.48, paddingTop: 2.32, paddingBottom: 2.32, justifyContent: 'center', alignItems: 'center', display: 'flex'}}>
                                     <div style={{width: 12.05, height: 8.36, position: 'relative'}}>
-                                    <img style={{ position: 'absolute'}} src="src/Asset/icons/delete.svg" /> 
+                                    <img style={{ position: 'absolute'}} src={del} /> 
                                     </div>
                                 </div>
                             </div>
