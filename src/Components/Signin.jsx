@@ -6,7 +6,7 @@ function Signin() {
     <>
       <div className="signup-ctr">
         <div>
-        {/* <div className="overlay"></div> */}
+        <div className="overlay"></div>
        
         <div className="avatar-right" style={{flexDirection: 'column', justifyContent: 'flex-end', alignItems: 'center', display: 'inline-flex'}}>
     <div style={{alignSelf: 'stretch', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
