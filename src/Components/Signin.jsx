@@ -1,106 +1,61 @@
+import { Link } from "react-router-dom";
+import stockace from '.././Asset/icons/stockace.svg';
 
-import { Link } from "react-router-dom"
-import stockace from '.././Asset/icons/stockace.svg'
 function Signin() {
   return (
-    <>
-      <div className="signup-ctr">
-        <div>
-        <div className="overlay"></div>
-       
-        <div className="avatar-right" style={{flexDirection: 'column', justifyContent: 'flex-end', alignItems: 'center', display: 'inline-flex'}}>
-    <div style={{alignSelf: 'stretch', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
-        <div style={{width: 614, padding: 8, justifyContent: 'flex-start', alignItems: 'center', display: 'inline-flex'}}>
-            <div style={{textAlign: 'center', color: 'white', fontSize: 40, fontFamily: 'Montserrat', fontWeight: '600', wordWrap: 'break-word'}}>Track your Sales Seamlessly</div>
+    <div className="min-h-screen flex">
+      <div className="w-1/2 relative flex flex-col justify-center items-center bg-gray-900 text-white">
+        <div className="absolute inset-0 z-0 bg-gradient-to-b from-gray-800 to-black opacity-50"></div>
+        <div className="relative z-10 p-8">
+          <h1 className="text-4xl font-semibold font-montserrat mb-4 text-center">Track your Sales Seamlessly</h1>
+          <p className="text-lg font-medium font-karla text-center max-w-lg">
+            This feature not only records every transaction but also provides insight into your sales pattern.
+          </p>
         </div>
-        <div style={{padding: 8, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'flex'}}>
-            <div style={{padding: 10, justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
-                <div style={{width: 578, color: 'white', fontSize: 20, fontFamily: 'Karla', fontWeight: '500', wordWrap: 'break-word'}}>This feature not only records every transaction but also provides insight into your sales pattern.</div>
-            </div>
-        </div>
-    </div>
-</div>
-        
-        </div>
-
-        <div className="signup-right">
-        <div style={{ flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 40, display: 'inline-flex'}}>
-    <div style={{height: 172, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'center', gap: 24, display: 'flex'}}>
-        <div style={{padding: 10, background: 'white', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
-            <div style={{justifyContent: 'center', alignItems: 'center', gap: 10, display: 'flex'}}>
-                <div style={{color: 'black', fontSize: 40, fontFamily: 'Karla', fontWeight: '700', wordWrap: 'break-word'}}>Welcome Back</div>
-            </div>
-            <div style={{width: 48, height: 48, position: 'relative'}}>
-                <img src={stockace} alt="stockace" />
-            </div>
-        </div>
-        <div style={{width: 565, padding: 10, justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
-            <div style={{color: '#505153', fontSize: 24, fontFamily: 'Karla', fontWeight: '400'}}>Today is a new day. It’s your day. You shape it.
-            Log in to start managing your sales</div>
-        </div>
-    </div>
-    <div style={{flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 56, display: 'flex'}}>
-        <div style={{flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 32, display: 'flex'}}>
-            <div style={{flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'flex'}}>
-                <div style={{flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 4, display: 'flex'}}>
-                    <div style={{color: '#505153', fontSize: 14, fontFamily: 'Karla', fontWeight: '500', wordWrap: 'break-word'}}>Email</div>
-                    <div style={{width: 553, height: 55, paddingTop: 4, paddingBottom: 4, borderRadius: 4, border: '0.50px #828282 solid', justifyContent: 'center', alignItems: 'center', gap: 154, display: 'inline-flex'}}>
-                        <div style={{height: 35, paddingLeft: 16, paddingRight: 16, paddingTop: 8, paddingBottom: 8, justifyContent: 'flex-start', alignItems: 'center', display: 'flex'}}>
-                            <div style={{color: '#BEBABA', fontSize: 16, fontFamily: 'Karla', fontWeight: '500', wordWrap: 'break-word'}}>xyz@email.com</div>
-                        </div>
-                        <div style={{width: 40, paddingLeft: 14.22, paddingRight: 14.22, paddingTop: 7.11, paddingBottom: 7.11, justifyContent: 'center', alignItems: 'center', display: 'flex'}}>
-                            <div style={{width: 11.56, height: 11.56, position: 'relative'}}>
-                                <div style={{width: 11.56, height: 11.56, left: 0, top: 0, position: 'absolute', border: '1px #505153 solid'}}></div>
-                                <div style={{width: 11.56, height: 11.56, left: 0, top: 0, position: 'absolute', border: '1px #505153 solid'}}></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div style={{flexDirection: 'column', justifyContent: 'center', alignItems: 'flex-end', gap: 8, display: 'flex'}}>
-                <div style={{flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'flex'}}>
-                    <div style={{flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 4, display: 'flex'}}>
-                        <div style={{color: '#505153', fontSize: 14, fontFamily: 'Karla', fontWeight: '500', wordWrap: 'break-word'}}>Password</div>
-                        <div style={{width: 553, height: 55, paddingTop: 4, paddingBottom: 4, borderRadius: 4, border: '0.50px #828282 solid', justifyContent: 'flex-start', alignItems: 'center', gap: 154, display: 'inline-flex'}}>
-                            <div style={{height: 45, paddingLeft: 16, paddingRight: 16, paddingTop: 8, paddingBottom: 8, justifyContent: 'flex-start', alignItems: 'center', display: 'flex'}}>
-                                <div style={{color: '#BEBABA', fontSize: 16, fontFamily: 'Lato', fontWeight: '600', lineHeight: 28.80, wordWrap: 'break-word'}}>At least 8 Characters</div>
-                            </div>
-                            <div style={{width: 45, paddingLeft: 16, paddingRight: 16, paddingTop: 8, paddingBottom: 8, justifyContent: 'center', alignItems: 'center', display: 'flex'}}>
-                                <div style={{width: 13, height: 13, paddingLeft: 0.48, paddingRight: 0.48, paddingTop: 2.32, paddingBottom: 2.32, justifyContent: 'center', alignItems: 'center', display: 'flex'}}>
-                                    <div style={{width: 12.05, height: 8.36, position: 'relative'}}>
-                                        <div style={{width: 12.05, height: 8.36, left: 0, top: 0, position: 'absolute', border: '1px #505153 solid'}}></div>
-                                        <div style={{width: 3.71, height: 3.71, left: 4.17, top: 2.32, position: 'absolute', border: '1px #505153 solid'}}></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div style={{color: '#0315BD', fontSize: 16, fontFamily: 'Karla', fontWeight: '500', wordWrap: 'break-word'}}>Forgot Password?</div>
-            </div>
-        </div>
-        <div style={{padding: 10, justifyContent: 'center', alignItems: 'center', gap: 8, display: 'inline-flex'}}>
-            <div style={{color: 'black', fontSize: 20, fontFamily: 'Karla', fontWeight: '500', wordWrap: 'break-word'}}>Already have an account?</div>
-            <div style={{justifyContent: 'center', alignItems: 'center', gap: 10, display: 'flex'}}>
-            <div>
-            <span style={{ color: 'black', fontSize: 20, fontFamily: 'Karla', fontWeight: 500, wordWrap: 'break-word' }}> </span>
-            <span style={{ color: '#0315BD', fontSize: 20, fontFamily: 'Karla', fontWeight: 500, wordWrap: 'break-word' }}>
-            <Link to="/signup">
-            Sign Up
-            </Link> 
-                </span>
-</div>
-
-            </div>
-        </div>
-    </div>
-</div>
-      </div>
+        <img src={stockace} alt="Background" className="absolute inset-0 w-full h-full object-cover z-5 opacity-50" />
       </div>
 
-     
-    </>
-  )
+      <div className="w-1/2 flex flex-col justify-center items-center bg-white p-8">
+        <div className="flex flex-col items-center gap-10">
+          <div className="flex flex-col items-center gap-6">
+            <div className="p-4 bg-gray-100 flex items-center gap-4 rounded-lg shadow-md">
+              <h2 className="text-3xl font-bold font-karla">Welcome Back</h2>
+              <img src={stockace} alt="stockace" className="w-12 h-12" />
+            </div>
+            <p className="text-lg text-gray-600 font-karla text-center">
+              Today is a new day. It’s your day. You shape it. Log in to start managing your sales.
+            </p>
+          </div>
+
+          <div className="flex flex-col gap-10">
+            <div className="flex flex-col gap-4">
+              <label className="text-sm text-gray-600 font-karla">Email</label>
+              <input
+                type="email"
+                placeholder="xyz@email.com"
+                className="w-full h-12 px-4 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+              />
+            </div>
+
+            <div className="flex flex-col gap-4">
+              <label className="text-sm text-gray-600 font-karla">Password</label>
+              <input
+                type="password"
+                placeholder="At least 8 Characters"
+                className="w-full h-12 px-4 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+              />
+              <Link to="/forgot-password" className="text-blue-700 text-sm font-karla">Forgot Password?</Link>
+            </div>
+
+            <div className="flex items-center gap-2">
+              <span className="text-lg text-gray-800 font-karla">Already have an account?</span>
+              <Link to="/signup" className="text-blue-700 text-lg font-karla">Sign Up</Link>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
 }
 
-export default Signin
+export default Signin;
