@@ -1,18 +1,19 @@
 import { Link } from "react-router-dom";
 import stockace from '.././Asset/icons/stockace.svg';
+import woman from '.././Asset/woman.png'
 
 function Signin() {
   return (
-    <div className="min-h-screen flex">
+    <div className="min-h-screen flex ">
       <div className="w-1/2 relative flex flex-col justify-center items-center bg-gray-900 text-white">
         <div className="absolute inset-0 z-0 bg-gradient-to-b from-gray-800 to-black opacity-50"></div>
-        <div className="relative z-10 p-8">
+        <div className="relative z-10 p-8 mt-48">
           <h1 className="text-4xl font-semibold font-montserrat mb-4 text-center">Track your Sales Seamlessly</h1>
           <p className="text-lg font-medium font-karla text-center max-w-lg">
             This feature not only records every transaction but also provides insight into your sales pattern.
           </p>
         </div>
-        <img src={stockace} alt="Background" className="absolute inset-0 w-full h-full object-cover z-5 opacity-50" />
+        <img src={woman} alt="Background-image a working beautiful lady with a tea cup" className="absolute inset-0 w-full h-full object-cover z-5 opacity-50" />
       </div>
 
       <div className="w-1/2 flex flex-col justify-center items-center bg-white p-8">
@@ -20,7 +21,7 @@ function Signin() {
           <div className="flex flex-col items-center gap-6">
             <div className="p-4 bg-gray-100 flex items-center gap-4 rounded-lg shadow-md">
               <h2 className="text-3xl font-bold font-karla">Welcome Back</h2>
-              <img src={stockace} alt="stockace" className="w-12 h-12" />
+              <img src={stockace} alt="stockace logo" className="w-12 h-12" />
             </div>
             <p className="text-lg text-gray-600 font-karla text-center">
               Today is a new day. It’s your day. You shape it. Log in to start managing your sales.
